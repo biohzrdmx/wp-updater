@@ -1,0 +1,22 @@
+{
+    "name": "biohzrdmx/biohzrdmx-updater",
+    "description": "Manual plugin updater for advanced users",
+    "version": "2.0",
+    "type": "wordpress-plugin",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "biohzrdmx",
+            "email": "hi@biohzrdmx.me",
+            "homepage": "https://biohzrdmx.me"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "biohzrdmx/curly-php": "^2.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

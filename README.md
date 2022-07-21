@@ -9,7 +9,7 @@ This plugin allows you to update plugins from a ZIP file easily, using the built
 ## Requirements
 
 - WordPress 5.x
-- PHP 5.6+
+- PHP 7.1+
 
 ## Installation
 

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-05-17 13:31-0500\n"
-"PO-Revision-Date: 2022-05-17 13:39-0500\n"
+"POT-Creation-Date: 2022-07-20 20:37-0500\n"
+"PO-Revision-Date: 2022-07-20 20:39-0500\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_ES\n"
@@ -15,55 +15,79 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e;esc_html\n"
 "X-Poedit-SearchPath-0: plugin.php\n"
 
-#: plugin.php:27 plugin.php:28 plugin.php:137 plugin.php:159
+#: plugin.php:30 plugin.php:31 plugin.php:199 plugin.php:259
 msgid "Manual update"
 msgstr "Actualización manual"
 
-#: plugin.php:41
+#: plugin.php:44
 msgid "Supported plugins"
 msgstr "Plugins soportados"
 
-#: plugin.php:43
+#: plugin.php:46
 msgid "The Manual update action will be shown for the following plugins:"
 msgstr "La acción Actualización manual será mostrada para los siguientes plugins:"
 
-#: plugin.php:59
+#: plugin.php:62
 msgid "Settings"
 msgstr "Ajustes"
 
-#: plugin.php:77
+#: plugin.php:80
 msgid "Settings Saved"
 msgstr "Ajustes guardados"
 
-#: plugin.php:87
+#: plugin.php:90
 msgid "Save Settings"
 msgstr "Guardar ajustes"
 
-#: plugin.php:121
+#: plugin.php:178
 msgid "No file specified"
 msgstr "No se ha especificado ningún archivo"
 
-#: plugin.php:124
+#: plugin.php:186
 msgid "Invalid nonce"
 msgstr "Petición no válida"
 
-#: plugin.php:129
+#: plugin.php:191
 msgid "Go back to plugins page"
 msgstr "Regresar a la página de plugins"
 
-#: plugin.php:140
+#: plugin.php:207
 msgid "Currently at version"
 msgstr "Actualmente en la versión"
 
-#: plugin.php:141
+#: plugin.php:212
 msgid "Upload a ZIP package"
 msgstr "Cargar un archivo ZIP"
 
-#: plugin.php:144
+#: plugin.php:216
 #, php-format
 msgid "Maximum size: %s"
 msgstr "Tamaño máximo: %s"
 
-#: plugin.php:146
+#: plugin.php:222
+msgid "From a GitHub repository"
+msgstr "Desde un repositorio de GitHub"
+
+#: plugin.php:227
+msgid "Repository URL"
+msgstr "URL del repositorio"
+
+#: plugin.php:231
+msgid "API Token"
+msgstr "Token de API"
+
+#: plugin.php:235
+msgid "Keep package after install"
+msgstr "Mantener paquete después de instalarlo"
+
+#: plugin.php:240
+msgid "API token required only for private repositories."
+msgstr "El token de API solo se requiere para repositorios privados."
+
+#: plugin.php:244
+msgid "Back to plugins"
+msgstr "Regresar a los plugins"
+
+#: plugin.php:245
 msgid "Update plugin"
 msgstr "Actualizar plugin"

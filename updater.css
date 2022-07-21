@@ -47,25 +47,44 @@
 	left: 28px;
 }
 
-.form-table textarea {
-
-	width: 100%;
+.hide {
+	display: none;
 }
 
-@media (min-width: 1024px) {
+.box {
 
-	.form-table textarea {
-
-		width: 500px;
-	}
+	background: #FAFAFA;
+	padding: 15px;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	transition: all 350ms;
 }
 
-.preview-link {
+.box:hover {
 
-	text-decoration: none;
+	background: #FFF;
 }
 
-.preview-link:hover {
+.box > *:last-child {
 
-	text-decoration: underline;
+	margin-bottom: 0;
+}
+
+.box h3 {
+
+	margin: 0 0 15px;
+}
+
+h3.has-icon svg{
+
+	float: left;
+	max-width: 18px;
+	height: auto;
+	margin-right: 5px;
+}
+
+p.submit {
+
+	margin-top: 0;
+	padding-top: 0;
 }
