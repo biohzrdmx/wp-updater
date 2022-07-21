@@ -15,9 +15,11 @@ This plugin allows you to update plugins from a ZIP file easily, using the built
 
 Clone/download the repo and install the plugin by unziping the contents of the zip into the `wp-content/plugins` folder of your WP installation, rename the resulting folder to `wp-updater` and activate it through the WordPress admin dashboard.
 
+Note: This plugin requires the use of Composer to install the dependencies, so you must run `composer install` on the plugin directory.
+
 Once installed you will see a 'Manual update' entry on the left-side menu under 'Plugins', click it and you will see the options page. There you will be able to specify on which plugins the **Manual update** command will be available.
 
-Then just head up to 'Plugins' and hover the element you want to update, then click the **Manual update** action and wait until you're redirected to select the ZIP package, then click **Update plugin** and wait for the process to finish.
+Then just head up to 'Plugins' and hover the element you want to update, then click the **Manual update** action and wait until you're redirected to select the ZIP package or enter a GitHub repository URL and API token (required for private repositories only), then click **Update plugin** and wait for the process to finish.
 
 Profit!
 
