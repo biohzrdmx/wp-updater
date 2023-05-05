@@ -28,7 +28,7 @@
 
 			public static function actionAdminMenu() {
 				add_submenu_page('plugins.php', 'Updater', __('Manual update', 'updater'), 'manage_options', 'updater', 'Updater::callbackAdminPage');
-				add_submenu_page(null, 'Updater', __('Manual update', 'updater'), 'manage_options', 'updater-update', 'Updater::callbackUpdatePage');
+				add_submenu_page('', 'Updater', __('Manual update', 'updater'), 'manage_options', 'updater-update', 'Updater::callbackUpdatePage');
 			}
 
 			public static function actionEnqueueScripts($hook) {
@@ -107,7 +107,7 @@
 					$nonce = self::getItem( $_POST, '_wpnonce' );
 					if ( wp_verify_nonce($nonce) ) {
 						$plugin_zip = '';
-						if ($github) {
+						if ($github && $github['url'] ?? null) {
 							$url = $github['url'] ?? '';
 							$token = $github['token'] ?? '';
 							$cache = ( $github['cache'] ?? 0 ) == 1;
