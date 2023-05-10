@@ -1,8 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-07-20 20:37-0500\n"
-"PO-Revision-Date: 2022-07-20 20:39-0500\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-updater\n"
+"POT-Creation-Date: 2023-05-10T02:50:24+00:00\n"
+"PO-Revision-Date: 2023-05-09 21:00-0600\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_MX\n"
@@ -10,84 +11,103 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Poedit 2.4.3\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __;_e;esc_html\n"
 "X-Poedit-SearchPath-0: plugin.php\n"
 
-#: plugin.php:30 plugin.php:31 plugin.php:199 plugin.php:259
+#. Plugin Name of the plugin
+#| msgid "Update plugin"
+msgid "Updater"
+msgstr "Updater"
+
+#. Plugin URI of the plugin
+msgid "http://github.com/biohzrdmx/wp-updater"
+msgstr "http://github.com/biohzrdmx/wp-updater"
+
+#. Description of the plugin
+msgid "Manual plugin updater for advanced users"
+msgstr "Actualizador manual de plugins para usuarios avanzados"
+
+#. Author of the plugin
+msgid "biohzrdmx"
+msgstr "biohzrdmx"
+
+#. Author URI of the plugin
+msgid "http://github.com/biohzrdmx/"
+msgstr "http://github.com/biohzrdmx/"
+
+#: plugin.php:32 plugin.php:33 plugin.php:201 plugin.php:261
 msgid "Manual update"
 msgstr "Actualización manual"
 
-#: plugin.php:44
+#: plugin.php:46
 msgid "Supported plugins"
 msgstr "Plugins soportados"
 
-#: plugin.php:46
+#: plugin.php:48
 msgid "The Manual update action will be shown for the following plugins:"
 msgstr "La acción Actualización manual será mostrada para los siguientes plugins:"
 
-#: plugin.php:62
+#: plugin.php:64
 msgid "Settings"
 msgstr "Ajustes"
 
-#: plugin.php:80
+#: plugin.php:82
 msgid "Settings Saved"
 msgstr "Ajustes guardados"
 
-#: plugin.php:90
+#: plugin.php:92
 msgid "Save Settings"
 msgstr "Guardar ajustes"
 
-#: plugin.php:178
+#: plugin.php:180
 msgid "No file specified"
 msgstr "No se ha especificado ningún archivo"
 
-#: plugin.php:186
+#: plugin.php:188
 msgid "Invalid nonce"
 msgstr "Petición no válida"
 
-#: plugin.php:191
-msgid "Go back to plugins page"
-msgstr "Regresar a la página de plugins"
-
-#: plugin.php:207
+#: plugin.php:209
 msgid "Currently at version"
 msgstr "Actualmente en la versión"
 
-#: plugin.php:212
+#: plugin.php:214
 msgid "Upload a ZIP package"
 msgstr "Cargar un archivo ZIP"
 
-#: plugin.php:216
-#, php-format
-msgid "Maximum size: %s"
-msgstr "Tamaño máximo: %s"
-
-#: plugin.php:222
+#: plugin.php:224
 msgid "From a GitHub repository"
 msgstr "Desde un repositorio de GitHub"
 
-#: plugin.php:227
+#: plugin.php:229
 msgid "Repository URL"
 msgstr "URL del repositorio"
 
-#: plugin.php:231
+#: plugin.php:233
 msgid "API Token"
 msgstr "Token de API"
 
-#: plugin.php:235
+#: plugin.php:237
 msgid "Keep package after install"
 msgstr "Mantener paquete después de instalarlo"
 
-#: plugin.php:240
+#: plugin.php:242
 msgid "API token required only for private repositories."
 msgstr "El token de API solo se requiere para repositorios privados."
 
-#: plugin.php:244
+#: plugin.php:246
 msgid "Back to plugins"
 msgstr "Regresar a los plugins"
 
-#: plugin.php:245
+#: plugin.php:247
 msgid "Update plugin"
 msgstr "Actualizar plugin"
+
+#~ msgid "Go back to plugins page"
+#~ msgstr "Regresar a la página de plugins"
+
+#, php-format
+#~ msgid "Maximum size: %s"
+#~ msgstr "Tamaño máximo: %s"

@@ -1,7 +1,7 @@
 {
     "name": "biohzrdmx/biohzrdmx-updater",
     "description": "Manual plugin updater for advanced users",
-    "version": "2.0",
+    "version": "2.1",
     "type": "wordpress-plugin",
     "license": "proprietary",
     "authors": [

@@ -1,0 +1,35 @@
+# Copyright (C) 2023 biohzrdmx
+# This file is distributed under the same license as the Updater plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Updater 2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-updater\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-05-10T03:48:15+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: wp-updater\n"
+
+#. Plugin Name of the plugin
+msgid "Updater"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "http://github.com/biohzrdmx/wp-updater"
+msgstr ""
+
+#. Description of the plugin
+msgid "Manual plugin updater for advanced users"
+msgstr ""
+
+#. Author of the plugin
+msgid "biohzrdmx"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://github.com/biohzrdmx/"
+msgstr ""
